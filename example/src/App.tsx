@@ -1,18 +1,14 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-otp-input';
+import OTP from 'react-native-otp-input';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
+  const [value, setValue] = React.useState<string | undefined>();
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <OTP length={6} onChange={setValue} />
+      <Text>{value}</Text>
     </View>
   );
 }
