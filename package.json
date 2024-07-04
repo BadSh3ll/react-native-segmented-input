@@ -1,5 +1,5 @@
 {
-  "name": "react-native-otp-input",
+  "name": "react-native-segmented-input",
   "version": "0.1.0",
   "description": "A fully customizable React Native package for One-Time-Password input",
   "main": "lib/commonjs/index",

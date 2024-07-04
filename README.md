@@ -1,22 +1,18 @@
-# react-native-otp-input
+# react-native-segmented-input
 
 A fully customizable React Native package for One-Time-Password input
 
 ## Installation
 
 ```sh
-npm install react-native-otp-input
+npm install react-native-segmented-input
 ```
 
 ## Usage
 
 
 ```js
-import { multiply } from 'react-native-otp-input';
 
-// ...
-
-const result = await multiply(3, 7);
 ```
 
 
